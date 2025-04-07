@@ -7,7 +7,22 @@ function ProjectPage() {
         <div className='min-h-screen w-full px-4 select-none bg-[#121212] flex justify-center pb-10'>
             <div className='w-full sm:w-[80%] md:w-[70%] lg:w-[40%] h-full pt-[100px] space-y-3'>
                 <h1 className='text-[28px] font-[poppins] text-[#ffd400] font-bold'>Projects</h1>
+
                 <div className='w-full h-auto flex flex-col space-y-7 items-center'>
+
+                    <div className='bg-[#212121] rounded-md p-3 w-full h-full space-y-2'>
+                        <div className='flex items-start'>
+                            <Link to={"https://shopsphere-80d1.onrender.com"}>
+                                <h2 className='leading-none font-[poppins] underline cursor-pointer text-white text-[26px]'>
+                                    ShopSphere
+                                </h2>
+                            </Link>
+                            <ArrowOutwardIcon sx={{ color: "#fff", fontSize: "20px" }} />
+                        </div>
+                        <p className='font-jetbrains  text-[#888888] text-[14px]'>An eCommerce website with user authentication, shopping cart, and Razorpay integration for secure checkout. Optimized for mobile responsiveness and smooth user experience.</p>
+                        <h3 className='text-[#ffd400] font-[poppins]'>Tech Stack - <span className='text-[14px] font-jetbrains text-white'>
+                            MongoDB, Express, React, Node.js </span></h3>
+                    </div>
 
                     <div className='bg-[#212121] rounded-md p-3 w-full h-full space-y-2'>
                         <div className='flex items-start'>
